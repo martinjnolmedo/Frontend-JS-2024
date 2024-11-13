@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mascotin</title>
+    <link rel="icon" href="img/icono.png?v=2" type="image/png"/>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Imagenes y diseño (css) -->
+        <img id="logo" src="img/logo.png" alt="imagen representante del logo del proyecto" width="268">
+        <h1>Bienvenidos a la tienda de mascotas Mascotin</h1>
+    </header>
+    <nav class="nav">
+        <!-- Listas -->
+        <ul id="ulNav">
+            <li>
+                <a href="index.html">
+                    Inicio
+                </a>
+            </li>
+            <li>
+                <a href="productos.html"> <!--  target="_blank" -->
+                    Productos
+                </a>
+            </li>
+            <li>
+                <a href="contacto.html"> 
+                    Contacto
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <!-- <p>Sección principal</p> -->
+        <h2>Productos</h2>
+        <section id="Productos">
+            <div id="Productos">
+                <p class="parrafo-verde">Hueso 1</p>
+                <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">                
+            </div>
+            <div id="Productos">
+                <p class="parrafo-azul">Hueso 2</p>
+                <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">                
+            </div>
+            <div id="Productos">
+                <p class="parrafo-verde">Hueso 3</p>
+                <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">
+            </div>
+            <div id="Productos">
+                <p class="parrafo-azul">Hueso 4</p>
+                <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">
+            </div>
+            <div id="Productos">
+                <p class="parrafo-verde">Hueso 5</p>
+                <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">
+            </div>
+            <div id="Productos">
+                <p class="parrafo-azul">Hueso 6</p>
+                <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">
+            </div>
+            <div id="Productos">
+                <p class="parrafo-verde">Hueso 7</p>
+                <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">
+            </div>
+            <div id="Productos">
+                <p class="parrafo-azul">Hueso 8</p>
+                <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">
+            </div>
+        </section>
+        <section id="Videos">
+            <h2>Ahí va un video para calmar a sus mascotas</h2>
+            <!-- Videos -->
+            <!-- <video controls>
+                <source width="320" height="532" src="img/video.mp4" type="video/mp4">
+                <track src="subtitulos.vtt" kind="subtitles" srclang="es" label="español">
+            </video> -->
+            <iframe src="https://www.youtube.com/embed/DIt8a1Sb68U?si=4I2iYgvNlfM_apCN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; gyroscope" allowfullscreen id="Video"></iframe>
+        </section>
+        <section id="reseñas">
+            <h2>Algunas reseñas de nuestros clientes</h2>
+            <div id="card">
+                <p>Reseña 1</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veniam ratione eveniet officiis cumque ipsa placeat corporis, praesentium pariatur repellendus esse doloribus sed architecto nostrum quidem? Vitae quo debitis repellat.</p>
+            </div>
+            <div id="card">
+                <p>Reseña 2</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veniam ratione eveniet officiis cumque ipsa placeat corporis, praesentium pariatur repellendus esse doloribus sed architecto nostrum quidem? Vitae quo debitis repellat.</p>
+            </div>
+            <div id="card">
+                <p>Reseña 3</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veniam ratione eveniet officiis cumque ipsa placeat corporis, praesentium pariatur repellendus esse doloribus sed architecto nostrum quidem? Vitae quo debitis repellat.</p>
+            </div>
+            <div id="card">
+                <p>Reseña 4</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veniam ratione eveniet officiis cumque ipsa placeat corporis, praesentium pariatur repellendus esse doloribus sed architecto nostrum quidem? Vitae quo debitis repellat.</p>
+            </div>
+        </section>
+        <Section class="Llegar">
+            <p><a href="https://maps.google.com.ar" target="_blank">Cómo llegar?
+                <span class="border-top"></span>
+                <span class="border-right"></span>
+                <span class="border-bottom"></span>
+                <span class="border-left"></span>
+            </a></p>
+        </Section>
+        <section id="Contacto">
+            <!-- modify this form HTML and place wherever you wanyour form -->
+            <form action="https://formspree.io/f/xzzbpkvb" method="post" id="Formulariodecontacto">
+                <label>Ingrese su nombre:
+                    <input type="text" name="name">
+                </label>
+                <label>Ingrese su email:
+                    <input type="email" name="email">
+                </label>
+                <label>Ingrese su mensaje:
+                    <textarea name="message"></textarea>
+                </label>
+                <!-- your other form fields go here -->
+                <button type="submit" target="_blank">Send</button>
+            </form>
+            <p>O envianos un <a href="mailto:olmedo.molmedo@gmail.com">email</a></p>
+        </section>
+        
+    </main>
+    <footer id="pagina-footer">
+        <!-- <section>
+            Formularios   USAR FORMSPREE.IO
+             <h3>Dejanos tu consulta</h3>
+            <form action="" method="POST"> para que no los datos vayan encriptados, se utiliza el método POST (y no se ven en la barra del navegador)
+                <label for="nombre">Nombre:
+                    <input name="nombre" id="nombre" type="text" placeholder="Escribe tu nombre">
+                </label>
+                <br>
+                <label for="email">Email:
+                    <input name="email" id="email" type="email" placeholder="Ingrese su email">
+                </label>
+                <br>
+                <label for="consulta">Consulta:
+                    <input name="consulta" id="consulta" type="text" placeholder="Escribe tu consulta">
+                    <textarea name="consulta" id="consulta" cols="40" rows="20" placeholder="Escribe tu consulta"></textarea>
+                </label>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section>
+
+        </section> -->
+        <section>
+            <p>2024 - Mi sitio web - Todos los derechos reservados</p>
+        </section>
+    </footer>
+</body>
+</html>

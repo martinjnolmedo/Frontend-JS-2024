@@ -1,0 +1,185 @@
+@media only screen and (max-width: 300px) {
+    body{
+        font-size: 13px;
+    }
+    section{
+        grid-template-columns: 1fr;
+    }
+    #Videos{
+        padding: 1%;
+        justify-content: center;
+        color: white;
+        background-color: black;
+    }
+    #Video{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        font-size: 14px;
+    }
+    section{
+        grid-template-columns: 1fr;
+    }
+    #Videos{
+        /* margin: 20px; */
+        padding: 1%;
+        justify-content: center;
+        /* text-align: center; */
+        color: white;
+        background-color: black;
+    }
+    #Video{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    #Contacto{
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #Contacto{
+        display: flex;
+    }
+    #card{
+        grid-template-columns: 1fr;
+    }
+    #Formulariodecontacto{
+        flex-wrap: wrap;
+        padding: 10%;
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    body{
+        font-size: 18px;
+    }
+}
+
+* {
+    margin: 0.1%;
+    padding: 0.1%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Nunito, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    background-color: lavenderblush;
+}
+
+main {
+    background-color: cadetblue;
+    border: 1px solid #333;
+}
+section{
+    margin: 20px;
+}
+
+footer {
+    background-color: lavender;
+    text-emphasis: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: small;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+h2{
+    margin: 20px;
+    text-align: center;
+}
+
+.nav{
+    background-color: lavenderblush;
+    position: sticky;
+    top: 0%;
+    margin-top: -10px;
+    text-align: center;
+}
+.nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.nav a{
+    text-decoration: none !important;
+}
+
+/* #ulNav {
+    list-style-type: none; /* para sacarle la viñeta a la lista desordenada */
+/*    text-decoration: none; /* para sacarle la apariencia de enlace */
+/*    color: tomato;
+    background-color: rgb(255, 248, 250);
+    display: flex;
+} */
+
+#logo {
+    display: block;
+    margin: 0 auto;
+}
+
+#Productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1%;
+    flex: 1 1 200px;
+    box-sizing: border-box;
+    /* margin: 20px; */
+    text-align: center;
+}
+
+#Videos{
+    /* margin: 20px; */
+    padding: 1%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.Llegar{
+    text-decoration: none;
+}
+
+#Contacto{
+    display: block;
+}
+
+#reseñas{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, ifr));
+}
+
+#card{
+    border: 1px solid #333;
+    margin: 1%;
+    padding: 1%;
+}
+
+#card:hover{
+    transform: translateY(-5px); 
+    transition: transform 0.2s ease 0s;    
+}
